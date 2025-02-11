@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Martina",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,14 +22,14 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Ei nungcbro?",                                    // First interaction
+            yesBtn: "Khngde",                                             // Text for "Yes" button
+            noBtn: "adum kabuk2",                                               // Text for "No" button
+            secretAnswer: "Fagi twnida, yam nungcda! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "Kyam nungshige ei?",                          // For the love meter
+            startText: "Si muk!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
@@ -42,9 +42,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW sukyam nungcba ?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: " Asibuk khita 🚀💝",              // Shows when they go past 1000%
+        normal: "yaman deda! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
